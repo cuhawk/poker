@@ -5,8 +5,8 @@
 Dealer::Dealer() {
     players.push_back(Player{table, players, "Martin"});
     players.push_back(Player{table, players, "Olav"});
-    // players.push_back(Player{table, players, "Simen"});
-    // players.push_back(Player{table, players, "Joar"});
+    players.push_back(Player{table, players, "Simen"});
+    players.push_back(Player{table, players, "Joar"});
 }
 
 void Dealer::burnCard() { deck.drawCard(); }
